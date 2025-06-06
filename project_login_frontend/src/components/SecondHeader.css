@@ -1,0 +1,95 @@
+/* src/components/SecondHeader.css */
+
+/* General Second Header Styling */
+.second-header {
+  display: flex;
+  justify-content: space-between; /* Align logo and nav links */
+  align-items: center;
+  background-color: #0069d9; /* Blue background */
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin-top: 20px; /* Optional: add a margin if needed for spacing between the first and second header */
+}
+
+/* Logo Section */
+.second-logo-img {
+  width: 120px; /* Adjust logo size */
+  height: auto;
+}
+
+/* Navigation Section */
+.second-nav-links ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.second-nav-links li {
+  margin: 0 15px;
+}
+
+.second-nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.second-nav-links a:hover {
+  color: #00f2fe; /* Light blue color on hover */
+}
+
+/* Dropdown Menu */
+.second-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+ul.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  color: black;
+  padding: 10px;
+  top: 115px;
+  left: 56%;
+  z-index: 1;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  gap: 10px;
+}
+/* .dropdown-menu >li>a {
+    padding: 10px 10px;
+    background-color: lightblue;
+} */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.second-dropdown:hover .second-dropdown-menu {
+  display: block;
+}
+
+.second-dropdown-menu a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+/* .dropdown-menu a:hover {
+  background-color: #f2f2f2;
+} */
+/* Apply Now Button */
+.second-apply-btn button {
+  background-color: #f27f32; /* Orange button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.second-apply-btn button:hover {
+  background-color: #e66f2f; /* Darker orange on hover */
+}

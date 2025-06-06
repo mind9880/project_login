@@ -1,0 +1,60 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #2c3e50;
+  line-height: 1.6;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-size: 3rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #1976d2;
+  margin-bottom: 2rem;
+}
+
+.description,
+.sectionTitle {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: #0d47a1;
+  border-bottom: 2px solid #64b5f6;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.topicsList,
+.highlightsList {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  columns: 2;
+  column-gap: 3rem;
+}
+
+.topicsList li,
+.highlightsList li {
+  background: #f0f8ff;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #42a5f5;
+  border-radius: 4px;
+}

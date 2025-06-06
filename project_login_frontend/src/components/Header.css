@@ -1,0 +1,44 @@
+/* src/components/Header.css */
+
+/* General styles for the header */
+.header {
+  display: flex;
+  justify-content: space-between; /* Place contact info and social media on opposite sides */
+  align-items: center;
+  background-color: #4facfe; /* Light blue background */
+  color: white;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow for better visual appeal */
+}
+
+/* Contact Info Tab */
+.header-tab {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for social media icons */
+.social-media a {
+  color: white; /* White icons by default */
+  margin-left: 15px; /* Spacing between icons */
+  font-size: 24px; /* Increase icon size */
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Change icon color on hover */
+.social-media a:hover {
+  color: #00f2fe; /* Light blue color on hover */
+}

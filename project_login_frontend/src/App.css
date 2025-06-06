@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(to right, #a8e063, #ffffff);
+  height: 100vh; /* Ensure it takes the full height of the screen */
+  margin: 0;
+  font-family: Arial, sans-serif; /* You can change the font if you want */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
